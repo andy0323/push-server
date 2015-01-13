@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#开启服务
+supervisor $(cd "$(dirname "$0")"; pwd)/www
