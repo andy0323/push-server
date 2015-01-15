@@ -2,7 +2,18 @@ extends layout
 
 block content
   div.welcome
-    div.container
+    div#pushFirstView.container
       h1 推送服务
-      p 免费测试推送服务
-      button(class="btn btn-primary btn-lg") 开始测试
+      p 提供免费的推送服务
+      button(class="btn btn-primary") 开始推送
+    div#pushSecondView
+      div#segment
+        div(class="segmentView") 
+          p.segmentTitle 第一步：上传推送证书
+          button(class="btn btn-default btn-lg segmentSub") 点击上传
+        div(class="segmentView") 
+          p.segmentTitle 第二步：上传推送密钥
+          button(class="btn btn-default btn-lg segmentSub") 点击上传
+        div(class="segmentView") 
+          p.segmentTitle 第三步：设置DeviceToken
+          input(class="form-control segmentSub" id="deviceTokenInput" placeholder="Email")

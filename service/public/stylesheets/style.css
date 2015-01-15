@@ -1,8 +1,61 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-  color: #00B7FF;
+/**
+ * 首页、One
+ */
+#pushFirstView {
+    background:-webkit-linear-gradient(bottom left, black, purple);
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+#pushFirstView h1 {
+	padding-top: 40px;
+	font-size: 80px;
+	font-weight:bold;
+	color: white;
+}
+
+#pushFirstView p {
+	padding-top: 20px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	font-weight:bold;
+	color: white;
+}
+
+#pushFirstView button {
+	width: 200px;
+	height: 50px;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+/**
+ * 首页、Two
+ */
+#pushSecondView #segment .segmentView {
+ 	width: 33.33%;
+	height: 400px;
+	float: left;
+	background-color: yellow;
+	text-align: center;
+}
+
+#pushSecondView #segment .segmentView .segmentTitle {
+	font-size: 20px;
+	font-weight:bold;
+	margin-top: 50px;
+}
+
+#pushSecondView #segment .segmentView .segmentSub {
+	margin-top: 40px;
+}
+
+#deviceTokenInput {
+	width: 100px;
 }
