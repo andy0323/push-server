@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# 当前文件路径
+SH_PATH=$(cd "$(dirname "$0")"; pwd)
+
+# 配置文件路径
+CONF_PATH=${SH_PATH}/../conf/mongo.conf
+
+# 开启数据库
+mongod -f ${CONF_PATH}
