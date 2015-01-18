@@ -52,17 +52,20 @@
 	margin-top: 50px;
 }
 
-#pushSecondView #segment .segmentView .segmentSub {
+#pushSecondView #segment .segmentView .uploadButton {
 	margin-top: 40px;
-}
-
-#deviceTokenInput {
-	width: 100px;
-
-	/*
-	background-color: red;
+	background-color: white;
 	height: 200px;
 	width: 200px;
 	border-radius: 200px;
-	 */
+	border-color: purple;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#deviceTokenInput {
+	margin-top: 100px;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
 }
